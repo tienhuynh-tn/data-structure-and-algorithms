@@ -45,20 +45,16 @@ public class FashionInBerland {
         }
 
         int count = 0;
-        if (n > 1) {
-            for (int i = 0; i < list.size(); i++) {
-                if (list.get(i) == 0) {
-                    count++;
-                }
-            }
-
-            if (count == 1) {
-                return true;
-            } else {
-                return false;
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i) == 0) {
+                count++;
             }
         }
-        
-        return true;
+
+        if (count == 1) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
