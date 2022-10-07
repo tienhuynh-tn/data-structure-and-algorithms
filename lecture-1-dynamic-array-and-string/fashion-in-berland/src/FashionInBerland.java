@@ -3,7 +3,6 @@
  * All rights reserved!
  * For more information, please contact via my email: tien.huynhlt.tn@gmail.com
  */
-package fashioninberland;
 
 import java.util.ArrayList;
 import java.util.Scanner;
