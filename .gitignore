@@ -116,4 +116,7 @@ modules.xml
 
 .idea/*
 
+# Ignore .idea folder globally
+.idea/
+
 # End of https://www.toptal.com/developers/gitignore/api/intellij
