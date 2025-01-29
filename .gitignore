@@ -119,4 +119,7 @@ modules.xml
 # Ignore .idea folder globally
 .idea/
 
+# Ignore target folder globally
+target/
+
 # End of https://www.toptal.com/developers/gitignore/api/intellij
